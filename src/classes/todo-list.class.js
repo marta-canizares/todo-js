@@ -13,6 +13,8 @@ export class TodoList {
     nuevoTodo(todo) {
         this.todos.push(todo);
         this.guardarLocalStorage();
+
+
     }
 
     eliminarTodo(id) {
