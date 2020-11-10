@@ -80,6 +80,26 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+.new-tarea{
+	position:relative;
+	text-align: center;
+	right:-40%;
+	margin:8px;
+	padding:5px;
+	color: inherit;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.new-tarea:hover {
+	border-color: rgba(175, 47, 47, 0.1);
+	cursor: pointer;
+}
+
+
+
 .new-todo,
 .edit {
 	position: relative;

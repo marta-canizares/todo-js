@@ -12,6 +12,7 @@ export class TodoList {
 
     nuevoTodo(todo) {
         this.todos.push(todo);
+        this.guardarLocalStorage();
     }
 
     eliminarTodo(id) {
@@ -23,7 +24,7 @@ export class TodoList {
     marcarCompletado(id) {
 
         for (let todo of this.todos) {
-            if (todo.i == id) {
+            if (todo.id == id) {
                 todo.completado = !todo.completado
                 this.guardarLocalStorage();
                 break;
