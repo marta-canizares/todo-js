@@ -1,16 +1,14 @@
-# TodoList
-Fin de la sección 8
+# TodoList en Javascript
+
+Lista de tareas generada con Html, css y Javascript.
+En el siguiente enlace se puede ver la aplicación en funcionamiento:
+
+https://marta-canizares.github.io/todo-js/
 
 
-## Nota
-Recuerden que para reconstruir los módulos de node deben de ejecutar este comando
+## Autores ✒️
 
-```
-npm install
-```
+* **Marta Sánchez Cañizares** 
 
-Y para crear nuevamente el DIST
 
-```
-npm start
-```
+
